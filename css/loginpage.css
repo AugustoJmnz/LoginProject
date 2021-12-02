@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("../images/parq.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    list-style: none;
+}
+
+header {
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+.logo-header img{
+    width: 175px;
+}
+
+.container ul {
+    display: flex;
+    align-items: center;
+}
+.container li {
+    margin-right: 1.5rem;
+}
+
+.containertable{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    background: #fff;
+    margin-top:150px;
+    padding: 50px;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 80%;
+    border: none;
+    padding: 10px;
+}
+
+.input-container{
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.icon{
+    min-width: 20px;
+    text-align: left;
+    color:#999;
+}
+.buttom{
+    width: 100%;
+    color: black;
+    border: none;
+    font-size: 20px;
+    background:lightgrey;
+    padding: 15px 20 px;
+    cursor: pointer;
+}
+.buttom:hover{
+    background: darkcyan;
+}
+p{
+    text-align: left;
+}
+@media(min-width:760px) {
+    .formulario{
+        margin: auto;
+        margin-top: 150px;
+        width: 500px;
+        border-radius: 4%;
+        position: relative;
+    }
+}
+.link{
+    color: black;
+}
+.logo-social img{
+    width: 200px;
+}
+.barrafooter {
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+.barrafooter ul {
+    display: flex;
+    align-items: center;
+}
+.barrafooter li {
+    margin-right: 1.5rem;
+
+}
+
